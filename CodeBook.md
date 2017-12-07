@@ -31,14 +31,14 @@ Only orginal features used in the transformation process are mean and standard d
 All data provided in the `tidy_data.txt` file of this repository are average of each variable for each activity and each subject (so prefix is avg).
 
 All data labels are build on the following patter : 
-avg<Time or Freq><Body or Gravity><Acc or Gyro><empty or Mag or Jerk><Mean or Std><X or Y or Z> (exemple avgTimeBodyGyroJerkStdX):
+avg\<Time or Freq\>\<Body or Gravity\>\<Acc or Gyro\>\<empty or Mag or Jerk\>\<Mean or Std\>\<X or Y or Z\> (exemple avgTimeBodyGyroJerkStdX):
 * avg: average measures for this subject and this acticity (all measures in text file are average)
-* <Time or Freq>: time or frequency domain signal
-* <Body or Gravity>: body or gravity acceleration
-* <Acc or Gyro> : accelerometer or gyroscope 3-axial measures
-* <empty or Mag or Jerk>: nothing, jerk or magnitude process
-* <Mean or Std>:  mean or standard deviation measures
-* <X or Y or Z>: axis of the measure (if relevant, otherwise nothing)
+* \<Time or Freq\>: time or frequency domain signal
+* \<Body or Gravity\>: body or gravity acceleration
+* \<Acc or Gyro\> : accelerometer or gyroscope 3-axial measures
+* \<empty or Mag or Jerk\>: nothing, jerk or magnitude process
+* \<Mean or Std\>:  mean or standard deviation measures
+* \<X or Y or Z\>: axis of the measure (if relevant, otherwise nothing)
 
 List of measures : 
 * avgTimeBodyAccMeanX
