@@ -109,7 +109,7 @@ List of measures :
 * avgFreqBodyGyroJerkMagStd
 
 ## Transformations performed on original data set
-Foolowing process has been applied to calulate tydi data in text file:
+Foolowing process has been applied to calulate tidy data in text file:
 * Merges the training and the test sets to create one data set
 * Extracts only the measurements on the mean and standard deviation for each measurement
 * Uses descriptive activity names to name the activities in the data set (removin`(`, `)`, `-`, duplicate words...)
